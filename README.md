@@ -1,6 +1,13 @@
-# Corvo Engineering (Policy-Driven PR-to-PO Procurement Portal)
+# Corvo Engineering — Policy-Driven PR-to-PO Procurement Portal
 
 An end-to-end procurement intake, policy evaluation, and PO consolidation platform built with **FastAPI**, **Next.js (TypeScript)**, **SQLite/PostgreSQL**, and **Google Gemini (`gemini-3.8-flash`)**.
+
+---
+
+## Live Deployment
+
+- **Live Frontend Application (Vercel):** https://corvo-procurement-git-main-thesouravpandey108-8464s-projects.vercel.app/
+- **Live Backend API & Swagger Docs (Render):** https://corvo-procurement-e30z.onrender.com/docs
 
 ---
 
@@ -25,7 +32,6 @@ corvo-procurement-ai/
 │   │   ├── schemas.py                  # Pydantic models & Policy v5.0 baseline DSL
 │   │   ├── seed.py                     # Startup loader for spreadsheets & contract PDFs
 │   │   └── main.py                     # FastAPI app entrypoint
-│   ├── data/                           # Master data, contracts (XLSX + PDFs), and PR batches
 │   ├── tests/test_worked_examples.py   # Automated tests for 14 worked examples & supplier rankings
 │   ├── Dockerfile
 │   └── requirements.txt
