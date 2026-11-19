@@ -1,4 +1,4 @@
-# Corvo Engineering — Policy-Driven PR-to-PO Procurement Portal
+# Corvo Engineering (Policy-Driven PR-to-PO Procurement Portal)
 
 An end-to-end procurement intake, policy evaluation, and PO consolidation platform built with **FastAPI**, **Next.js (TypeScript)**, **SQLite/PostgreSQL**, and **Google Gemini (`gemini-3.8-flash`)**.
 
